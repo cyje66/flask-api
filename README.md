@@ -1,5 +1,5 @@
 # flask-api
-A practice using flask to write two RESTful APIs: `/register` and `/login`. Keywords: flask, sqlite, docker
+A practice using flask to implement two RESTful APIs: `/register` and `/login`. Keywords: flask, sqlite, docker
 
 ## Steps: 
 1. `docker pull eddiechien/flask-api:latest`
