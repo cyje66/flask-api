@@ -23,5 +23,5 @@ A practice using flask to implement two RESTful APIs: `/register` and `/login`. 
 | Method | Route | Request body | Response |
 | ------ | ----- | ---------- | ------- |
 | GET    | http://localhost:5000/account  | None | {<br>  &emsp;"users": [] <br>} |
-| POST   | http://localhost:5000/register | { <br>&emsp; "username": test <br>&emsp; "password": "Aa12345678" <br>} | {<br> &emsp; "success": true, <br>&emsp; "reason": "Account Created." <br>} |
-| POST   | http://localhost:5000/login    | {<br>&emsp; "username": test <br>&emsp; "password": "Aa12345678" <br>} | {<br> &emsp; "success": true, <br>&emsp; "reason": "Login successful." <br>} |
+| POST   | http://localhost:5000/register | { <br>&emsp; "username": "test", <br>&emsp; "password": "Aa12345678" <br>} | {<br> &emsp; "success": true, <br>&emsp; "reason": "Account Created." <br>} |
+| POST   | http://localhost:5000/login    | {<br>&emsp; "username": "test", <br>&emsp; "password": "Aa12345678" <br>} | {<br> &emsp; "success": true, <br>&emsp; "reason": "Login successful." <br>} |
